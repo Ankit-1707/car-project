@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+} 
+.logo{
+    position: absolute;
+    height: 130px;
+    width: 110px;
+    /* background-color: aqua; */
+    left: 55px;
+    top: 20px;
+    background-image: url(https://thumbs.dreamstime.com/b/mulhouse-france-september-closeup-rolls-royce-logo-car-closeup-rolls-royce-logo-car-99816485.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    position: absolute;
+    left: 42%;
+    top: 4%;
+    letter-spacing: 5px;
+}
+.line{
+    position: absolute;
+    height: 3%;
+    width: 1px;
+    background-color: black;
+    left: 48%;
+    top: 10%;
+}
+.setr{
+    position: absolute;
+    font-size: 20px;
+    z-index: 9999;
+    left: 27%;
+    top: 21%;
+    letter-spacing: 9px;
+    color: rgb(196, 171, 122);
+    font-size: xx-large;
+    font-family: gilroy;
+    font-weight: lighter;
+}
+.cir{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    /* background-color: blueviolet; */
+    border-radius: 40px;
+    top: 21%;
+    left: 75%;
+    border: 4.5px solid rgba(202, 216, 228);
+
+}
+.nte{
+    position: absolute;
+    left: 36%;
+    color: rgb(202, 216, 228);
+    font-size: 160px;
+    letter-spacing: 32px;
+    top: 8%;
+    z-index: 9;
+}
+.image{
+    position: absolute;
+    height: 50%;
+    width: 40%;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://images.dealer.com/ddc/vehicles/2019/Rolls-Royce/Dawn/Convertible/trim_Base_9b92e0/color/Premiere%20Metallic-K5K-143%2C143%2C143-640-en_US.jpg?impolicy=downsize&w=440);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-color: antiquewhite;
+    left: 95%;
+    border-left: 1px solid black;
+}
+.nav > .io{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    font-size: 35px;
+    font-weight: 10;
+
+}
+.nav >i{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    font-size: xx-large;
+}
+.bline{
+    position: absolute;
+    height: 13%;
+    width: 1px;
+    background-color: black;
+    left: 48%;
+    top: 68%;
+}
+.vg{
+    position: absolute;
+    left: 43.5%;
+    bottom: 13%;
+    letter-spacing: 2px;
+    font-weight: 5px;
+}
+.thought{
+    position: absolute;
+    top: 72%;
+    left: 5%;
+    color: green;
+}
